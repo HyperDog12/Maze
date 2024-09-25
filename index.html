@@ -1,14 +1,9 @@
-<div class="game-offer__window__frame" style="position: relative; height: 100vh; margin-bottom: 20px;">
-    <iframe id="polytrack-game" src="https://html-classic.itch.zone/html/11183255/index.html" style="position:absolute; left:0px; top:0px; width:100%; height:100%;" border="0" scrolling="no" frameborder="0"></iframe>
-</div>
-
-<script>
-    // Block embedding on other sites
-    window.onload = function() {
-        // Allow embedding only if the site is 'mcred2024.github.io'
-        const allowedHostnames = ["mcred2024.github.io", "www.mcred2024.github.io"];
-        if (!allowedHostnames.includes(window.location.hostname)) {
-            document.body.innerHTML = "<h1 style='color: blue;'>You are not allowed to embed this</h1>";
-        }
-    };
-</script>
+<!DOCTYPE html>
+<html style="background-color: blanchedalmond;">
+    <head>
+        <title>Maze AI</title>
+    </head>
+    <body style="margin:0;">
+        <canvas id="display", style="width:100vw; height: 100vh;"></canvas>
+    </body>
+</html>
