@@ -5,7 +5,7 @@ var bh = 400;
 // Padding
 var p = 10;
 
-var canvas = document.getElementById("display");
+var canvas = document.getElementById("canvas");
 var context = canvas.getContext("2d");
 function drawBoard(){
     for (var x = 0; x <= bw; x += 40) {
